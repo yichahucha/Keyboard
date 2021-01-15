@@ -53,7 +53,7 @@ struct KeyboardView: View {
                                  (3, 0), (3, end),
                                  (4, 0), (4, end),
                                  (5, 4):
-                                KeyButton(text: key, height: keySide, width: keySide - 2)
+                                KeyButton(text: key)
                                     .layoutPriority(1.0)
                             case (5, end), (5, end - 2):
                                 VStack {
@@ -66,7 +66,7 @@ struct KeyboardView: View {
                                     KeyButton(text: String(key.suffix(1)), height: keySide / 2)
                                 }
                             case (_, _):
-                                KeyButton(text: key, height: keySide - 2, width: keySide - 2)
+                                KeyButton(text: key, width: keySide - 2)
                             }
                         }
                     }
