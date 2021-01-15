@@ -95,10 +95,14 @@ struct KeyButton: View {
     var width: CGFloat = keySide
     var body: some View {
         GeometryReader { geometry in
-            Text(text)
-                .foregroundColor(.white)
-                .font(.system(size: 13.0))
-                .position(x: geometry.size.width / 2, y: geometry.size.height / 2)
+            Button(action: {
+                print(text)
+            }, label: {
+                Text(text)
+                    .foregroundColor(.white)
+                    .font(.system(size: 13.0))
+                    .position(x: geometry.size.width / 2, y: geometry.size.height / 2)
+            })
         }
         .frame(minWidth: width, maxWidth: .infinity, minHeight: height, maxHeight: height)
         .background(Color(.black))
