@@ -40,7 +40,7 @@ struct KeyboardView: View {
             /// 按键区域
             VStack(alignment: .leading, spacing: keySapcing) {
                 ForEach(0 ..< keyss.count) { m in
-                    HStack(spacing: keySapcing - 1) {
+                    HStack(spacing: keySapcing) {
                         let keys = keyss[m]
                         ForEach(0 ..< keys.count) { n in
                             let end = keys.endIndex - 1
