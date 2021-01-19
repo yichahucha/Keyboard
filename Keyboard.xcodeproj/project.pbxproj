@@ -426,7 +426,7 @@
 				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Keyboard/Preview Content\"";
-				DEVELOPMENT_TEAM = 685MD7243L;
+				DEVELOPMENT_TEAM = RM63AG6FBT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Keyboard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -434,7 +434,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.goose.Keyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goose.Keyboard2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,7 +450,7 @@
 				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Keyboard/Preview Content\"";
-				DEVELOPMENT_TEAM = 685MD7243L;
+				DEVELOPMENT_TEAM = RM63AG6FBT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Keyboard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -458,7 +458,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.goose.Keyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goose.Keyboard2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
