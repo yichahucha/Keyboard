@@ -144,7 +144,7 @@ struct KeyboardView: View {
             Keyboard.sliver
                 .frame(width: Keyboard.touchWidth, height: Keyboard.touchHeight, alignment: .center)
                 .overlay(RoundedRectangle(cornerRadius: 10.0).stroke(Keyboard.grey, lineWidth: 1))
-                .offset(y:20.0)
+                .offset(y:18.0)
         }
         .frame(width: Keyboard.macBookWidth,height: Keyboard.macBookHeight)
         .background(Keyboard.sliver)
