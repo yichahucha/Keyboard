@@ -139,6 +139,7 @@ struct KeyboardView: View {
             .padding(15)
             .background(Keyboard.grey)
             .cornerRadius(10.0)
+            .overlay(RoundedRectangle(cornerRadius: 10.0).stroke(Keyboard.grey1, lineWidth: 0.5))
             
             /// 触摸区域
             Keyboard.sliver
